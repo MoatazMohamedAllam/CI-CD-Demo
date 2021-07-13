@@ -1,9 +1,6 @@
 name: Continous Integration and Deployment
 
-on:
-  push:
-      branches:
-         - master
+on:[push]
 jobs:
     runs-on: ubuntu-latest
     steps:
